@@ -1,0 +1,17 @@
+<div class="lg-site lg-login" id="lg-site" data-theme="light" style="{plhd_style}">
+<img class="lg-lbg" src="images/hotel/full/lobby.webp" alt="">
+<main class="lg-main lg-lwrap">
+    <div class="lg-lcard">
+        <a class="lg-lbrand" href="Home">{plhd_brand}<span>Admin</span></a>
+        <h1>Staff sign in</h1>
+        {plhd_demo}
+        <form class="lg-lform" onsubmit="return AdminLoginJs.signIn()" novalidate>
+            <label class="lg-field" for="lg-user"><span>User name</span><input type="text" id="lg-user" maxlength="40" autocomplete="username" autocapitalize="none" value="{plhd_user}"></label>
+            <label class="lg-field" for="lg-pass"><span>Password</span><input type="password" id="lg-pass" maxlength="100" autocomplete="current-password" value="{plhd_pass}"></label>
+            <em class="lg-err" id="lg-e-pass"></em>
+            <button type="submit" class="lg-btn lg-btn-wide">Sign in</button>
+        </form>
+        <a class="lg-lback" href="Home">&larr; Back to the hotel website</a>
+    </div>
+</main>
+</div>

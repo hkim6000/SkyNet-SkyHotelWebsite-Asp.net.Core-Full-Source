@@ -1,0 +1,33 @@
+<div class="mb-site" id="mb-site" data-page="MyBooking" data-theme="{plhd_theme}" style="{plhd_style}">
+<header class="mb-top">
+    <div class="mb-wrap mb-top-in">
+        <button type="button" class="mb-ibtn mb-burger" aria-label="Menu" onclick="MyBookingJs.openNav()"><svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg></button>
+        <a class="mb-brand" href="Home"><b id="mb-brand">{plhd_name}</b><span id="mb-town">{plhd_town}</span></a>
+        <nav class="mb-nav" aria-label="Main">{plhd_nav}</nav>
+        <div class="mb-tools">
+            <a class="mb-tl mb-mylink" href="MyBooking">My booking</a>
+            <a class="mb-tl mb-mem" id="mb-mem" href="Membership">Circle sign in</a>
+            <button type="button" class="mb-ibtn" aria-label="Light or dark" title="Light or dark" onclick="MyBookingJs.toggleTheme()"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 14.5A8 8 0 0 1 9.5 4a7 7 0 1 0 10.5 10.5z"/></svg></button>
+            <a class="mb-btn mb-btn-gold mb-book" href="Reservation">Book now</a>
+        </div>
+    </div>
+</header>
+<div class="mb-demo-bar" id="mb-demo-bar"></div>
+<aside class="mb-drawer" id="mb-nav" aria-label="Menu">
+    <div class="mb-dr-top"><b>{plhd_name}</b><button type="button" class="mb-ibtn" aria-label="Close" onclick="MyBookingJs.closeNav()"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg></button></div>
+    <nav class="mb-dr-list">{plhd_drawer}</nav>
+    <a class="mb-btn mb-btn-gold mb-btn-wide" href="Reservation">Book now</a>
+</aside>
+<div class="mb-scrim" id="mb-scrim" onclick="MyBookingJs.closeNav()"></div>
+<main class="mb-main" id="mb-main">{plhd_main}</main>
+<footer class="mb-foot">
+    <div class="mb-wrap mb-foot-in">
+        <div class="mb-fcol mb-fabout"><a class="mb-fbrand" href="Home">{plhd_name}</a><p id="mb-ftag">{plhd_tagline}</p><p class="mb-faddr" id="mb-faddr">{plhd_addr}<br><a href="tel:{plhd_tel}">{plhd_phone}</a> &middot; <a href="mailto:{plhd_email}">{plhd_email}</a></p></div>
+        <div class="mb-fcol"><b>Stay</b><a href="Rooms">Rooms &amp; suites</a><a href="Offers">Offers</a><a href="Reservation">Book a stay</a><a href="MyBooking">Manage a booking</a></div>
+        <div class="mb-fcol"><b>Hotel</b><a href="Dining">Dining</a><a href="Spa">Spa &amp; wellness</a><a href="Gallery">Gallery</a><a href="Contact">Location &amp; contact</a></div>
+        <div class="mb-fcol"><b>SkyHotel Circle</b><a href="Membership">Membership &amp; points</a><a href="MyCircle">My Circle</a><a href="AdminLogin">Staff sign in</a></div>
+    </div>
+    <p class="mb-wrap mb-copy">&copy; 2026 {plhd_name} &middot; A fictional hotel built with the SkyNet Framework. Every room, guest, review and price is invented, and no real payments are taken.</p>
+</footer>
+<div class="mb-toast" id="mb-toast" role="status" aria-live="polite"></div>
+</div>

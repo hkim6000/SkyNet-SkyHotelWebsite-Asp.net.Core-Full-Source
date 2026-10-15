@@ -1,0 +1,33 @@
+<div class="mc-site" id="mc-site" data-page="MyCircle" data-theme="{plhd_theme}" style="{plhd_style}">
+<header class="mc-top">
+    <div class="mc-wrap mc-top-in">
+        <button type="button" class="mc-ibtn mc-burger" aria-label="Menu" onclick="MyCircleJs.openNav()"><svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg></button>
+        <a class="mc-brand" href="Home"><b id="mc-brand">{plhd_name}</b><span id="mc-town">{plhd_town}</span></a>
+        <nav class="mc-nav" aria-label="Main">{plhd_nav}</nav>
+        <div class="mc-tools">
+            <a class="mc-tl mc-mylink" href="MyBooking">My booking</a>
+            <a class="mc-tl mc-mem" id="mc-mem" href="Membership">Circle sign in</a>
+            <button type="button" class="mc-ibtn" aria-label="Light or dark" title="Light or dark" onclick="MyCircleJs.toggleTheme()"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 14.5A8 8 0 0 1 9.5 4a7 7 0 1 0 10.5 10.5z"/></svg></button>
+            <a class="mc-btn mc-btn-gold mc-book" href="Reservation">Book now</a>
+        </div>
+    </div>
+</header>
+<div class="mc-demo-bar" id="mc-demo-bar"></div>
+<aside class="mc-drawer" id="mc-nav" aria-label="Menu">
+    <div class="mc-dr-top"><b>{plhd_name}</b><button type="button" class="mc-ibtn" aria-label="Close" onclick="MyCircleJs.closeNav()"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg></button></div>
+    <nav class="mc-dr-list">{plhd_drawer}</nav>
+    <a class="mc-btn mc-btn-gold mc-btn-wide" href="Reservation">Book now</a>
+</aside>
+<div class="mc-scrim" id="mc-scrim" onclick="MyCircleJs.closeNav()"></div>
+<main class="mc-main" id="mc-main">{plhd_main}</main>
+<footer class="mc-foot">
+    <div class="mc-wrap mc-foot-in">
+        <div class="mc-fcol mc-fabout"><a class="mc-fbrand" href="Home">{plhd_name}</a><p id="mc-ftag">{plhd_tagline}</p><p class="mc-faddr" id="mc-faddr">{plhd_addr}<br><a href="tel:{plhd_tel}">{plhd_phone}</a> &middot; <a href="mailto:{plhd_email}">{plhd_email}</a></p></div>
+        <div class="mc-fcol"><b>Stay</b><a href="Rooms">Rooms &amp; suites</a><a href="Offers">Offers</a><a href="Reservation">Book a stay</a><a href="MyBooking">Manage a booking</a></div>
+        <div class="mc-fcol"><b>Hotel</b><a href="Dining">Dining</a><a href="Spa">Spa &amp; wellness</a><a href="Gallery">Gallery</a><a href="Contact">Location &amp; contact</a></div>
+        <div class="mc-fcol"><b>SkyHotel Circle</b><a href="Membership">Membership &amp; points</a><a href="MyCircle">My Circle</a><a href="AdminLogin">Staff sign in</a></div>
+    </div>
+    <p class="mc-wrap mc-copy">&copy; 2026 {plhd_name} &middot; A fictional hotel built with the SkyNet Framework. Every room, guest, review and price is invented, and no real payments are taken.</p>
+</footer>
+<div class="mc-toast" id="mc-toast" role="status" aria-live="polite"></div>
+</div>

@@ -1,0 +1,112 @@
+[
+ {
+  "id": "u-elena",
+  "login": "elena",
+  "name": "Elena Marsh",
+  "title": "General Manager",
+  "hash": "pbkdf2$100000$EBryEtA1gpKCtDBH3l70RQ==$3YR78MZAooi7chk/7rWJw9bj+la9Wf8TYbSPgpHYO/U=",
+  "admin": true,
+  "active": true,
+  "demo": true,
+  "perms": {}
+ },
+ {
+  "id": "u-marco",
+  "login": "marco",
+  "name": "Marco Bellini",
+  "title": "Front Desk",
+  "hash": "pbkdf2$100000$1SnzXHflwedsae+Oao2r/A==$OFzQhxXKy8pjnFqqT2WI86+C5JBaEoYfS0evI38dDWU=",
+  "admin": false,
+  "active": true,
+  "demo": true,
+  "perms": {
+   "frontdesk": "VE",
+   "bookings": "VE",
+   "calendar": "V",
+   "guests": "VE",
+   "housekeeping": "V"
+  }
+ },
+ {
+  "id": "u-aiko",
+  "login": "aiko",
+  "name": "Aiko Tanaka",
+  "title": "Reservations",
+  "hash": "pbkdf2$100000$q6d94v3dUO9vCoSaER5VeQ==$NMSblyAiWuY1giFroz9eYula7sqpdc8fWcZRW6iFokE=",
+  "admin": false,
+  "active": true,
+  "demo": true,
+  "perms": {
+   "bookings": "VEX",
+   "calendar": "VE",
+   "guests": "VE",
+   "offers": "V",
+   "frontdesk": "V"
+  }
+ },
+ {
+  "id": "u-omar",
+  "login": "omar",
+  "name": "Omar Haddad",
+  "title": "Revenue",
+  "hash": "pbkdf2$100000$5mM8OauYbjpb+GQ+G0WVsQ==$qPVfdB24z4kNjHHPXZO3wUjKJ3K+rmgeUcDErbszpv4=",
+  "admin": false,
+  "active": true,
+  "demo": true,
+  "perms": {
+   "rates": "VEX",
+   "offers": "VE",
+   "reports": "V",
+   "bookings": "V",
+   "calendar": "V",
+   "media": "VE"
+  }
+ },
+ {
+  "id": "u-lucia",
+  "login": "lucia",
+  "name": "Lucia Romero",
+  "title": "Guest Relations",
+  "hash": "pbkdf2$100000$3YODiHoMiNzegPUu90wzjA==$4pcsjuHXBoCwX/MEdwnJDWGlAYMCOtBht1hvIN4bIGQ=",
+  "admin": false,
+  "active": true,
+  "demo": true,
+  "perms": {
+   "reviews": "VE",
+   "content": "VE",
+   "guests": "V",
+   "members": "V",
+   "media": "VE"
+  }
+ },
+ {
+  "id": "u-ben",
+  "login": "ben",
+  "name": "Ben Okoro",
+  "title": "Housekeeping",
+  "hash": "pbkdf2$100000$mzlY7fHlixxjmNRsltuhdw==$6uVuV3HGpyLrjiv5hrSBtrzgdUgq5ktekwlYyyMJAMw=",
+  "admin": false,
+  "active": true,
+  "demo": true,
+  "perms": {
+   "housekeeping": "VE",
+   "calendar": "V"
+  }
+ },
+ {
+  "id": "u-dana",
+  "login": "dana",
+  "name": "Dana Whitfield",
+  "title": "Loyalty",
+  "hash": "pbkdf2$100000$SsJB5OlQhqgZakiRL7f5CQ==$JYCDenySz6xBDTfjIhMRiJYqFAoNB0w6G1OA1+aStlk=",
+  "admin": false,
+  "active": true,
+  "demo": true,
+  "perms": {
+   "members": "VEX",
+   "offers": "VE",
+   "reports": "V",
+   "guests": "V"
+  }
+ }
+]

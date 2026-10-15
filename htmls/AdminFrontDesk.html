@@ -1,0 +1,21 @@
+<div class="fd-site fd-admin" id="fd-site" data-theme="light" style="{plhd_style}">
+<header class="fd-ahead">
+    <button type="button" class="fd-ibtn fd-burger" aria-label="Menu" onclick="AdminFrontDeskJs.openNav()"><svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg></button>
+    <a class="fd-abrand" href="Admin">{plhd_name}<span>Admin</span></a>
+    <span class="fd-demo" id="fd-demo"></span>
+    <span class="fd-grow"></span>
+    <a class="fd-who" id="fd-who" href="AdminAccount"></a>
+    <a class="fd-view" href="Home" target="_blank" rel="noopener">View site</a>
+    <button type="button" class="fd-out" onclick="AdminFrontDeskJs.signOut()">Sign out</button>
+</header>
+<aside class="fd-side" id="fd-nav" aria-label="Admin">
+    <div class="fd-nav-top"><span>Menu</span><button type="button" class="fd-ibtn" aria-label="Close" onclick="AdminFrontDeskJs.closeNav()"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg></button></div>
+    <ul class="fd-amenu" id="fd-menu"></ul>
+</aside>
+<div class="fd-scrim" id="fd-scrim" onclick="AdminFrontDeskJs.closeNav()"></div>
+<main class="fd-amain" id="fd-main"><p class="fd-loading">Loading&hellip;</p></main>
+<div class="fd-modal" id="fd-modal" onclick="if(event.target===this)AdminFrontDeskJs.closeModal()">
+    <div class="fd-mbox" role="dialog" aria-modal="true"><button type="button" class="fd-ibtn fd-mclose" aria-label="Close" onclick="AdminFrontDeskJs.closeModal()"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg></button><div id="fd-mbody"></div></div>
+</div>
+<div class="fd-toast" id="fd-toast" role="status" aria-live="polite"></div>
+</div>

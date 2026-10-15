@@ -1,0 +1,317 @@
+[
+  {
+    "when": "2026-10-15T18:06:49.6602142Z",
+    "user": "u-elena",
+    "action": "booking",
+    "target": "SKH-PKFLV5 \u00B7 phone \u00B7 $316.96 at desk",
+    "ok": true
+  },
+  {
+    "when": "2026-10-15T18:05:47.99172Z",
+    "user": "u-elena",
+    "action": "booking",
+    "target": "SKH-P5WMVD \u00B7 phone \u00B7 $466.03 at desk",
+    "ok": true
+  },
+  {
+    "when": "2026-10-15T18:04:05.4924423Z",
+    "user": "u-elena",
+    "action": "signin",
+    "target": "elena",
+    "ok": true
+  },
+  {
+    "when": "2026-10-15T17:45:47.4418474Z",
+    "user": "u-elena",
+    "action": "change",
+    "target": "SKH-35NTQ3 \u00B7 New total $458.53 (\u002B$134.76 \u00B7 due at the front desk).",
+    "ok": true
+  },
+  {
+    "when": "2026-10-15T17:44:25.0946629Z",
+    "user": "u-elena",
+    "action": "booking",
+    "target": "SKH-35NTQ3 \u00B7 phone \u00B7 $323.77 at desk",
+    "ok": true
+  },
+  {
+    "when": "2026-10-15T17:43:50.5639Z",
+    "user": "u-elena",
+    "action": "offer",
+    "target": "AUTUMN15",
+    "ok": true
+  },
+  {
+    "when": "2026-10-15T17:43:15.4676729Z",
+    "user": "u-elena",
+    "action": "signin",
+    "target": "elena",
+    "ok": true
+  },
+  {
+    "when": "2026-10-15T14:33:00Z",
+    "user": "u-omar",
+    "action": "rates",
+    "target": "harbour \u00B7 weekend $279",
+    "ok": true
+  },
+  {
+    "when": "2026-10-15T07:22:00Z",
+    "user": "u-ben",
+    "action": "room-status",
+    "target": "room 204 \u00B7 clean",
+    "ok": true
+  },
+  {
+    "when": "2026-10-15T00:11:00Z",
+    "user": "u-ben",
+    "action": "room-status",
+    "target": "room 307 \u00B7 inspected",
+    "ok": true
+  },
+  {
+    "when": "2026-10-14T20:20:00Z",
+    "user": "u-marco",
+    "action": "check-in",
+    "target": "SKH-KMC92V \u00B7 room 108",
+    "ok": true
+  },
+  {
+    "when": "2026-10-14T19:50:00Z",
+    "user": "u-marco",
+    "action": "check-in",
+    "target": "SKH-7MPWZB \u00B7 room 406",
+    "ok": true
+  },
+  {
+    "when": "2026-10-14T19:05:00Z",
+    "user": "u-marco",
+    "action": "check-in",
+    "target": "SKH-R8BA68 \u00B7 room 106",
+    "ok": true
+  },
+  {
+    "when": "2026-10-14T17:00:00Z",
+    "user": "u-lucia",
+    "action": "review-approve",
+    "target": "r010",
+    "ok": true
+  },
+  {
+    "when": "2026-10-14T16:35:00Z",
+    "user": "u-marco",
+    "action": "check-in",
+    "target": "SKH-XHYYQ5 \u00B7 room 203",
+    "ok": true
+  },
+  {
+    "when": "2026-10-14T15:05:00Z",
+    "user": "u-marco",
+    "action": "check-in",
+    "target": "SKH-TF3CFQ \u00B7 room 304",
+    "ok": true
+  },
+  {
+    "when": "2026-10-14T11:40:00Z",
+    "user": "u-marco",
+    "action": "check-out",
+    "target": "SKH-MYK9XL \u00B7 room 105",
+    "ok": true
+  },
+  {
+    "when": "2026-10-14T11:15:00Z",
+    "user": "u-marco",
+    "action": "check-out",
+    "target": "SKH-EJ5HTR \u00B7 room 402",
+    "ok": true
+  },
+  {
+    "when": "2026-10-14T10:40:00Z",
+    "user": "u-marco",
+    "action": "check-out",
+    "target": "SKH-AR9FXS \u00B7 room 101",
+    "ok": true
+  },
+  {
+    "when": "2026-10-14T10:40:00Z",
+    "user": "u-marco",
+    "action": "check-out",
+    "target": "SKH-MVAHB6 \u00B7 room 202",
+    "ok": true
+  },
+  {
+    "when": "2026-10-14T10:00:00Z",
+    "user": "u-marco",
+    "action": "check-out",
+    "target": "SKH-WH774E \u00B7 room 203",
+    "ok": true
+  },
+  {
+    "when": "2026-10-14T09:49:00Z",
+    "user": "u-dana",
+    "action": "points-adjust",
+    "target": "SC204248 \u00B7 \u002B1,000",
+    "ok": true
+  },
+  {
+    "when": "2026-10-14T09:40:00Z",
+    "user": "u-marco",
+    "action": "check-out",
+    "target": "SKH-DNGX3H \u00B7 room 303",
+    "ok": true
+  },
+  {
+    "when": "2026-10-14T09:00:00Z",
+    "user": "u-marco",
+    "action": "check-out",
+    "target": "SKH-AZE6BL \u00B7 room 108",
+    "ok": true
+  },
+  {
+    "when": "2026-10-14T09:00:00Z",
+    "user": "u-marco",
+    "action": "check-out",
+    "target": "SKH-75DDE2 \u00B7 room 206",
+    "ok": true
+  },
+  {
+    "when": "2026-10-14T08:15:00Z",
+    "user": "u-marco",
+    "action": "check-out",
+    "target": "SKH-WCFZA8 \u00B7 room 205",
+    "ok": true
+  },
+  {
+    "when": "2026-10-14T08:15:00Z",
+    "user": "u-marco",
+    "action": "check-out",
+    "target": "SKH-4V7F9P \u00B7 room 304",
+    "ok": true
+  },
+  {
+    "when": "2026-10-14T02:38:00Z",
+    "user": "u-aiko",
+    "action": "cancel",
+    "target": "SKH-Q7H2RM \u00B7 refund $412.80",
+    "ok": true
+  },
+  {
+    "when": "2026-10-13T21:50:00Z",
+    "user": "u-marco",
+    "action": "check-in",
+    "target": "SKH-QPV7YN \u00B7 room 207",
+    "ok": true
+  },
+  {
+    "when": "2026-10-13T21:50:00Z",
+    "user": "u-marco",
+    "action": "check-in",
+    "target": "SKH-EJ3N5P \u00B7 room 301",
+    "ok": true
+  },
+  {
+    "when": "2026-10-13T21:50:00Z",
+    "user": "u-marco",
+    "action": "check-in",
+    "target": "SKH-XX2XD6 \u00B7 room 410",
+    "ok": true
+  },
+  {
+    "when": "2026-10-13T21:50:00Z",
+    "user": "u-marco",
+    "action": "check-in",
+    "target": "SKH-WS57UK \u00B7 room 501",
+    "ok": true
+  },
+  {
+    "when": "2026-10-13T21:35:00Z",
+    "user": "u-marco",
+    "action": "check-in",
+    "target": "SKH-5W4YYB \u00B7 room 309",
+    "ok": true
+  },
+  {
+    "when": "2026-10-13T19:27:00Z",
+    "user": "u-elena",
+    "action": "settings",
+    "target": "tax 12%",
+    "ok": true
+  },
+  {
+    "when": "2026-10-13T19:20:00Z",
+    "user": "u-marco",
+    "action": "check-in",
+    "target": "SKH-D776BU \u00B7 room 103",
+    "ok": true
+  },
+  {
+    "when": "2026-10-13T16:20:00Z",
+    "user": "u-marco",
+    "action": "check-in",
+    "target": "SKH-Z6FEA4 \u00B7 room 307",
+    "ok": true
+  },
+  {
+    "when": "2026-10-13T12:16:00Z",
+    "user": "u-omar",
+    "action": "offer",
+    "target": "AUTUMN15",
+    "ok": true
+  },
+  {
+    "when": "2026-10-13T11:40:00Z",
+    "user": "u-marco",
+    "action": "check-out",
+    "target": "SKH-PVTQ3R \u00B7 room 106",
+    "ok": true
+  },
+  {
+    "when": "2026-10-13T11:40:00Z",
+    "user": "u-marco",
+    "action": "check-out",
+    "target": "SKH-6SJ8ZV \u00B7 room 301",
+    "ok": true
+  },
+  {
+    "when": "2026-10-13T11:00:00Z",
+    "user": "u-marco",
+    "action": "check-out",
+    "target": "SKH-J9Z8ZG \u00B7 room 308",
+    "ok": true
+  },
+  {
+    "when": "2026-10-13T11:00:00Z",
+    "user": "u-marco",
+    "action": "check-out",
+    "target": "SKH-TB28GV \u00B7 room 410",
+    "ok": true
+  },
+  {
+    "when": "2026-10-13T05:05:00Z",
+    "user": "u-ben",
+    "action": "view",
+    "target": "rates",
+    "ok": false
+  },
+  {
+    "when": "2026-10-12T21:54:00Z",
+    "user": "u-lucia",
+    "action": "content",
+    "target": "dining",
+    "ok": true
+  },
+  {
+    "when": "2026-10-12T21:50:00Z",
+    "user": "u-marco",
+    "action": "check-in",
+    "target": "SKH-5XAJKB \u00B7 room 409",
+    "ok": true
+  },
+  {
+    "when": "2026-10-12T21:35:00Z",
+    "user": "u-marco",
+    "action": "check-in",
+    "target": "SKH-GH6ZLE \u00B7 room 305",
+    "ok": true
+  }
+]

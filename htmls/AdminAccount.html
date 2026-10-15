@@ -1,0 +1,21 @@
+<div class="my-site my-admin" id="my-site" data-theme="light" style="{plhd_style}">
+<header class="my-ahead">
+    <button type="button" class="my-ibtn my-burger" aria-label="Menu" onclick="AdminAccountJs.openNav()"><svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg></button>
+    <a class="my-abrand" href="Admin">{plhd_name}<span>Admin</span></a>
+    <span class="my-demo" id="my-demo"></span>
+    <span class="my-grow"></span>
+    <a class="my-who" id="my-who" href="AdminAccount"></a>
+    <a class="my-view" href="Home" target="_blank" rel="noopener">View site</a>
+    <button type="button" class="my-out" onclick="AdminAccountJs.signOut()">Sign out</button>
+</header>
+<aside class="my-side" id="my-nav" aria-label="Admin">
+    <div class="my-nav-top"><span>Menu</span><button type="button" class="my-ibtn" aria-label="Close" onclick="AdminAccountJs.closeNav()"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg></button></div>
+    <ul class="my-amenu" id="my-menu"></ul>
+</aside>
+<div class="my-scrim" id="my-scrim" onclick="AdminAccountJs.closeNav()"></div>
+<main class="my-amain" id="my-main"><p class="my-loading">Loading&hellip;</p></main>
+<div class="my-modal" id="my-modal" onclick="if(event.target===this)AdminAccountJs.closeModal()">
+    <div class="my-mbox" role="dialog" aria-modal="true"><button type="button" class="my-ibtn my-mclose" aria-label="Close" onclick="AdminAccountJs.closeModal()"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg></button><div id="my-mbody"></div></div>
+</div>
+<div class="my-toast" id="my-toast" role="status" aria-live="polite"></div>
+</div>

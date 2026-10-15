@@ -1,0 +1,21 @@
+<div class="st-site st-admin" id="st-site" data-theme="light" style="{plhd_style}">
+<header class="st-ahead">
+    <button type="button" class="st-ibtn st-burger" aria-label="Menu" onclick="AdminSettingsJs.openNav()"><svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg></button>
+    <a class="st-abrand" href="Admin">{plhd_name}<span>Admin</span></a>
+    <span class="st-demo" id="st-demo"></span>
+    <span class="st-grow"></span>
+    <a class="st-who" id="st-who" href="AdminAccount"></a>
+    <a class="st-view" href="Home" target="_blank" rel="noopener">View site</a>
+    <button type="button" class="st-out" onclick="AdminSettingsJs.signOut()">Sign out</button>
+</header>
+<aside class="st-side" id="st-nav" aria-label="Admin">
+    <div class="st-nav-top"><span>Menu</span><button type="button" class="st-ibtn" aria-label="Close" onclick="AdminSettingsJs.closeNav()"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg></button></div>
+    <ul class="st-amenu" id="st-menu"></ul>
+</aside>
+<div class="st-scrim" id="st-scrim" onclick="AdminSettingsJs.closeNav()"></div>
+<main class="st-amain" id="st-main"><p class="st-loading">Loading&hellip;</p></main>
+<div class="st-modal" id="st-modal" onclick="if(event.target===this)AdminSettingsJs.closeModal()">
+    <div class="st-mbox" role="dialog" aria-modal="true"><button type="button" class="st-ibtn st-mclose" aria-label="Close" onclick="AdminSettingsJs.closeModal()"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg></button><div id="st-mbody"></div></div>
+</div>
+<div class="st-toast" id="st-toast" role="status" aria-live="polite"></div>
+</div>

@@ -1,0 +1,33 @@
+<div class="ct-site" id="ct-site" data-page="Contact" data-theme="{plhd_theme}" style="{plhd_style}">
+<header class="ct-top">
+    <div class="ct-wrap ct-top-in">
+        <button type="button" class="ct-ibtn ct-burger" aria-label="Menu" onclick="ContactJs.openNav()"><svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg></button>
+        <a class="ct-brand" href="Home"><b id="ct-brand">{plhd_name}</b><span id="ct-town">{plhd_town}</span></a>
+        <nav class="ct-nav" aria-label="Main">{plhd_nav}</nav>
+        <div class="ct-tools">
+            <a class="ct-tl ct-mylink" href="MyBooking">My booking</a>
+            <a class="ct-tl ct-mem" id="ct-mem" href="Membership">Circle sign in</a>
+            <button type="button" class="ct-ibtn" aria-label="Light or dark" title="Light or dark" onclick="ContactJs.toggleTheme()"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 14.5A8 8 0 0 1 9.5 4a7 7 0 1 0 10.5 10.5z"/></svg></button>
+            <a class="ct-btn ct-btn-gold ct-book" href="Reservation">Book now</a>
+        </div>
+    </div>
+</header>
+<div class="ct-demo-bar" id="ct-demo-bar"></div>
+<aside class="ct-drawer" id="ct-nav" aria-label="Menu">
+    <div class="ct-dr-top"><b>{plhd_name}</b><button type="button" class="ct-ibtn" aria-label="Close" onclick="ContactJs.closeNav()"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg></button></div>
+    <nav class="ct-dr-list">{plhd_drawer}</nav>
+    <a class="ct-btn ct-btn-gold ct-btn-wide" href="Reservation">Book now</a>
+</aside>
+<div class="ct-scrim" id="ct-scrim" onclick="ContactJs.closeNav()"></div>
+<main class="ct-main" id="ct-main">{plhd_main}</main>
+<footer class="ct-foot">
+    <div class="ct-wrap ct-foot-in">
+        <div class="ct-fcol ct-fabout"><a class="ct-fbrand" href="Home">{plhd_name}</a><p id="ct-ftag">{plhd_tagline}</p><p class="ct-faddr" id="ct-faddr">{plhd_addr}<br><a href="tel:{plhd_tel}">{plhd_phone}</a> &middot; <a href="mailto:{plhd_email}">{plhd_email}</a></p></div>
+        <div class="ct-fcol"><b>Stay</b><a href="Rooms">Rooms &amp; suites</a><a href="Offers">Offers</a><a href="Reservation">Book a stay</a><a href="MyBooking">Manage a booking</a></div>
+        <div class="ct-fcol"><b>Hotel</b><a href="Dining">Dining</a><a href="Spa">Spa &amp; wellness</a><a href="Gallery">Gallery</a><a href="Contact">Location &amp; contact</a></div>
+        <div class="ct-fcol"><b>SkyHotel Circle</b><a href="Membership">Membership &amp; points</a><a href="MyCircle">My Circle</a><a href="AdminLogin">Staff sign in</a></div>
+    </div>
+    <p class="ct-wrap ct-copy">&copy; 2026 {plhd_name} &middot; A fictional hotel built with the SkyNet Framework. Every room, guest, review and price is invented, and no real payments are taken.</p>
+</footer>
+<div class="ct-toast" id="ct-toast" role="status" aria-live="polite"></div>
+</div>

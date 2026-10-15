@@ -1,0 +1,33 @@
+<div class="sa-site" id="sa-site" data-page="Spa" data-theme="{plhd_theme}" style="{plhd_style}">
+<header class="sa-top">
+    <div class="sa-wrap sa-top-in">
+        <button type="button" class="sa-ibtn sa-burger" aria-label="Menu" onclick="SpaJs.openNav()"><svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg></button>
+        <a class="sa-brand" href="Home"><b id="sa-brand">{plhd_name}</b><span id="sa-town">{plhd_town}</span></a>
+        <nav class="sa-nav" aria-label="Main">{plhd_nav}</nav>
+        <div class="sa-tools">
+            <a class="sa-tl sa-mylink" href="MyBooking">My booking</a>
+            <a class="sa-tl sa-mem" id="sa-mem" href="Membership">Circle sign in</a>
+            <button type="button" class="sa-ibtn" aria-label="Light or dark" title="Light or dark" onclick="SpaJs.toggleTheme()"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 14.5A8 8 0 0 1 9.5 4a7 7 0 1 0 10.5 10.5z"/></svg></button>
+            <a class="sa-btn sa-btn-gold sa-book" href="Reservation">Book now</a>
+        </div>
+    </div>
+</header>
+<div class="sa-demo-bar" id="sa-demo-bar"></div>
+<aside class="sa-drawer" id="sa-nav" aria-label="Menu">
+    <div class="sa-dr-top"><b>{plhd_name}</b><button type="button" class="sa-ibtn" aria-label="Close" onclick="SpaJs.closeNav()"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg></button></div>
+    <nav class="sa-dr-list">{plhd_drawer}</nav>
+    <a class="sa-btn sa-btn-gold sa-btn-wide" href="Reservation">Book now</a>
+</aside>
+<div class="sa-scrim" id="sa-scrim" onclick="SpaJs.closeNav()"></div>
+<main class="sa-main" id="sa-main">{plhd_main}</main>
+<footer class="sa-foot">
+    <div class="sa-wrap sa-foot-in">
+        <div class="sa-fcol sa-fabout"><a class="sa-fbrand" href="Home">{plhd_name}</a><p id="sa-ftag">{plhd_tagline}</p><p class="sa-faddr" id="sa-faddr">{plhd_addr}<br><a href="tel:{plhd_tel}">{plhd_phone}</a> &middot; <a href="mailto:{plhd_email}">{plhd_email}</a></p></div>
+        <div class="sa-fcol"><b>Stay</b><a href="Rooms">Rooms &amp; suites</a><a href="Offers">Offers</a><a href="Reservation">Book a stay</a><a href="MyBooking">Manage a booking</a></div>
+        <div class="sa-fcol"><b>Hotel</b><a href="Dining">Dining</a><a href="Spa">Spa &amp; wellness</a><a href="Gallery">Gallery</a><a href="Contact">Location &amp; contact</a></div>
+        <div class="sa-fcol"><b>SkyHotel Circle</b><a href="Membership">Membership &amp; points</a><a href="MyCircle">My Circle</a><a href="AdminLogin">Staff sign in</a></div>
+    </div>
+    <p class="sa-wrap sa-copy">&copy; 2026 {plhd_name} &middot; A fictional hotel built with the SkyNet Framework. Every room, guest, review and price is invented, and no real payments are taken.</p>
+</footer>
+<div class="sa-toast" id="sa-toast" role="status" aria-live="polite"></div>
+</div>

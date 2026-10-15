@@ -1,0 +1,21 @@
+<div class="rr-site rr-admin" id="rr-site" data-theme="light" style="{plhd_style}">
+<header class="rr-ahead">
+    <button type="button" class="rr-ibtn rr-burger" aria-label="Menu" onclick="AdminRoomsJs.openNav()"><svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg></button>
+    <a class="rr-abrand" href="Admin">{plhd_name}<span>Admin</span></a>
+    <span class="rr-demo" id="rr-demo"></span>
+    <span class="rr-grow"></span>
+    <a class="rr-who" id="rr-who" href="AdminAccount"></a>
+    <a class="rr-view" href="Home" target="_blank" rel="noopener">View site</a>
+    <button type="button" class="rr-out" onclick="AdminRoomsJs.signOut()">Sign out</button>
+</header>
+<aside class="rr-side" id="rr-nav" aria-label="Admin">
+    <div class="rr-nav-top"><span>Menu</span><button type="button" class="rr-ibtn" aria-label="Close" onclick="AdminRoomsJs.closeNav()"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg></button></div>
+    <ul class="rr-amenu" id="rr-menu"></ul>
+</aside>
+<div class="rr-scrim" id="rr-scrim" onclick="AdminRoomsJs.closeNav()"></div>
+<main class="rr-amain" id="rr-main"><p class="rr-loading">Loading&hellip;</p></main>
+<div class="rr-modal" id="rr-modal" onclick="if(event.target===this)AdminRoomsJs.closeModal()">
+    <div class="rr-mbox" role="dialog" aria-modal="true"><button type="button" class="rr-ibtn rr-mclose" aria-label="Close" onclick="AdminRoomsJs.closeModal()"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg></button><div id="rr-mbody"></div></div>
+</div>
+<div class="rr-toast" id="rr-toast" role="status" aria-live="polite"></div>
+</div>
